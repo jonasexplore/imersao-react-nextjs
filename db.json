@@ -1,5 +1,5 @@
 {
-  "bg": "https://images.alphacoders.com/533/thumb-1920-533936.jpg",
+  "bg": "https://cdn.pling.com/img/a/3/6/f/a15f67c3e59725b23be2f282695ba5417a5d.png",
   "title": "Quiz CSS da Alura",
   "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
   "questions": [
@@ -21,8 +21,8 @@
       "description": "Faz tempo em haha",
       "answer": 0,
       "alternatives": [
-         "background: linear-gradient(#e66465, #9198e5);",
-         "background: gradient(#e66465, #9198e5);"
+        "background: linear-gradient(#e66465, #9198e5);",
+        "background: gradient(#e66465, #9198e5);"
       ]
     }
   ],
@@ -32,7 +32,7 @@
   "theme": {
     "colors": {
       "primary": "#282a36",
-      "secondary": "#29b6f6",
+      "secondary": "#ff79c6",
       "mainBg": "#181818",
       "contrastText": "#FFFFFF",
       "wrong": "#FF5722",
