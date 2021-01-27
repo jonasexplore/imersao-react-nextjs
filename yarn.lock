@@ -3038,7 +3038,7 @@ promise-inflight@^1.0.1:
   resolved "https://registry.yarnpkg.com/promise-inflight/-/promise-inflight-1.0.1.tgz#98472870bf228132fcbdd868129bad12c3c029e3"
   integrity sha1-mEcocL8igTL8vdhoEputEsPAKeM=
 
-prop-types@15.7.2, prop-types@^15.6.2:
+prop-types@15.7.2, prop-types@^15.6.2, prop-types@^15.7.2:
   version "15.7.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
   integrity sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==
@@ -3148,6 +3148,18 @@ rc@^1.2.7:
     ini "~1.3.0"
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
+
+react-confetti@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/react-confetti/-/react-confetti-6.0.0.tgz#d1817dba4ad8d1a8742689db68d8b4bb145ea43e"
+  integrity sha512-gPuMIiJcpRFtyv3LvWKOvXxwbm1X9fyWT3wQsIMmmM7UhW3u84Te/xqfee4c0gicQXli8zCfIDkOlZyrHBk7pw==
+  dependencies:
+    tween-functions "^1.2.0"
+
+react-content-loader@^6.0.1:
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/react-content-loader/-/react-content-loader-6.0.1.tgz#1c5ce4a6256d974fcd3ac85460eca24b33226920"
+  integrity sha512-djJUgGNze7YdWzJA1kYO1eKXAMpP+Z4sMulmEuTVi6vEXzfuQCJs6yD8hhgWj23vvJPZL5b8NyabxteyF8Hq/g==
 
 react-dom@^16.8.0:
   version "16.14.0"
@@ -3936,6 +3948,11 @@ tunnel-agent@^0.6.0:
   integrity sha1-J6XeoGs2sEoKmWZ3SykIaPD8QP0=
   dependencies:
     safe-buffer "^5.0.1"
+
+tween-functions@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/tween-functions/-/tween-functions-1.2.0.tgz#1ae3a50e7c60bb3def774eac707acbca73bbc3ff"
+  integrity sha1-GuOlDnxguz3vd06scHrLynO7w/8=
 
 type-fest@^0.7.1:
   version "0.7.1"
