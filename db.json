@@ -5,24 +5,26 @@
   "questions": [
     {
       "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-      "title": "Como fazer um seletor por id via CSS?",
+      "title": "Qual café fica melhor?",
       "description": "Essa é pra aquecer",
       "answer": 2,
       "alternatives": [
-        ".elemento",
-        "*elemento",
-        "#elemento",
-        "%elemento"
+        "Café fraco e sem açucar",
+        "Café forte sem açucar",
+        "Café forte e com açucar",
+        "Café só a água"
       ]
     },
     {
       "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-      "title": "Como fazer um background gradiente com css?",
+      "title": "Por que os temas a grande maioria usam tema dark?",
       "description": "Faz tempo em haha",
       "answer": 0,
       "alternatives": [
-        "background: linear-gradient(#e66465, #9198e5);",
-        "background: gradient(#e66465, #9198e5);"
+        "Porque somos vampiros!",
+        "Para economizar energia",
+        "Para tornar a experiência mais agradável aos olhos",
+        "Ódiamos branco!!!"
       ]
     }
   ],
