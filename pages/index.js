@@ -10,27 +10,8 @@ import GitHubCorner from "../src/components/GitHubCorner";
 import QuizBackground from "../src/components/QuizBackground";
 import QuizLogo from "../src/components/QuizLogo";
 import Button from "../src/components/Button";
-
-export const QuizContainer = styled.div`
-  width: 100%;
-  max-width: 350px;
-  padding-top: 45px;
-  margin: auto 10%;
-  @media screen and (max-width: 500px) {
-    margin: auto;
-    padding: 15px;
-  }
-`;
-
-export const Input = styled.input`
-  margin: 2% 0;
-  display: flex;
-  flex: 1;
-  width: 100%;
-  padding: 0.5rem;
-  border-radius: 0.25rem;
-  border: none;
-`;
+import QuizContainer from "../src/components/QuizContainer";
+import Input from "../src/components/Input";
 
 export default function Home() {
   const router = useRouter();
@@ -42,9 +23,6 @@ export default function Home() {
 
   return (
     <QuizBackground backgroundImage={db.bg}>
-      <Head>
-        <title>ThemaQuiz - Imersão React Nextjs</title>
-      </Head>
       <QuizContainer>
         <QuizLogo />
         <Widget>
@@ -58,13 +36,16 @@ export default function Home() {
               por dentro!
             </p>
             <form
+              autoComplete="off"
               onSubmit={(e) => {
                 e.preventDefault();
                 router.push(`quiz?nome=${name}`);
               }}
             >
               <Input
+                autoComplete="off"
                 value={name}
+                name="name"
                 onChange={onChangeName}
                 type="text"
                 placeholder="Insira seu nome"
