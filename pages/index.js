@@ -27,7 +27,7 @@ export default function Home() {
         <QuizLogo />
         <Widget>
           <Widget.Header>
-            <h1>Quiz do fetich por temas</h1>
+            <h1>ProgrammerQuiz</h1>
           </Widget.Header>
           <Widget.Content>
             <p>
@@ -39,7 +39,7 @@ export default function Home() {
               autoComplete="off"
               onSubmit={(e) => {
                 e.preventDefault();
-                router.push(`quiz?nome=${name}`);
+                router.push(`quiz?name=${name}`);
               }}
             >
               <Input
