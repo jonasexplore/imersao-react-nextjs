@@ -5,21 +5,57 @@
   "questions": [
     {
       "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-      "title": "Qual café fica melhor?",
+      "title": "Quais são as tarefas básicas executadas na manutenção de um software?",
       "description": "Essa é pra aquecer",
-      "answer": 2,
+      "answer": 0,
       "alternatives": [
-        "Café fraco e sem açucar",
-        "Café forte sem açucar",
-        "Café forte e com açucar",
-        "Café só a água"
+        "Melhoria, adaptação, prevenção e correção.",
+        "backup, correção e deploy.",
+        "debug, refatoração e commit.",
+        "backup, análise e correção."
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
+      "title": "O processo de programação pode ser classificado em quatro fases. Quais são elas?",
+      "description": "Essa é pra aquecer",
+      "answer": 1,
+      "alternatives": [
+        "Júnior, pleno, sênior e master.",
+        "Complexa, fazendo progresso, progresso lento e emperrado.",
+        "fácil, mediano, difícil e impossível.",
+        "font-end, back-end, ux/ui e banco de dados."
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
+      "title": "Qual a mensagem de erro mais comum entre os programadores?",
+      "description": "Essa é pra aquecer",
+      "answer": 3,
+      "alternatives": [
+        "Type mismatch.",
+        "Undefined Method.",
+        "Undefined Type.",
+        "Undefined Name."
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
+      "title": "Um programa que recebe objetos produzidos por uma compilação e os transforma num executável é o:",
+      "description": "Essa é pra aquecer",
+      "answer": 0,
+      "alternatives": [
+        "Linkeditor.",
+        "Executor",
+        "Compilador.",
+        "Tradutor."
       ]
     },
     {
       "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
       "title": "Por que a grande maioria dos programadores usam tema dark?",
       "description": "Faz tempo em haha",
-      "answer": 0,
+      "answer": 2,
       "alternatives": [
         "Porque somos vampiros!",
         "Para economizar energia",
