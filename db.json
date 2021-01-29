@@ -65,7 +65,8 @@
     }
   ],
   "external": [
-    ""
+    "https://aluraquiz-base.alura-challenges.vercel.app/",
+    "https://quiz-imersao-react.olucasalves.vercel.app/"
   ],
   "theme": {
     "colors": {
