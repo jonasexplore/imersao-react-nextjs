@@ -18,6 +18,8 @@ const Option = styled.div`
     cursor: pointer;
     transition: background-color 0.5s;
   }
+  text-decoration: none;
+  color: white;
 `;
 
 export default Option;
